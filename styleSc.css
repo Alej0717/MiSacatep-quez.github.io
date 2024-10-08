@@ -1,0 +1,965 @@
+
+/* ***************************************************GENERAL********************************************************* */
+body {
+    font-family: Arial, sans-serif;
+     margin: 0;
+     padding: 0;
+    background-color: #fff;
+}
+
+        /* Encabezado */
+header {
+    background-color: #ffd900d8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 28px;
+    color: #000;
+    margin-left: 585px;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 img {
+    margin-left: -80px;
+    margin-top: -25px;
+    width: 75px;
+    height: 65px;
+    position: absolute;
+ }
+
+        /* menu de navegación */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+        }
+
+nav a {
+    padding: 14px 20px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+        }
+
+nav a:hover {
+    background-color: #555;
+    }
+
+
+
+/* *********************************************************INICIO***************************************************** */
+
+
+.main-content {
+    padding: 20px;
+    background-color: #fceb58;
+}
+
+.main-content h2 {
+    color: #000;
+    }
+
+.main-content p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 900px;
+    text-align: justify;
+}
+
+#Arco {
+    width: 300px;
+    height: 185px;
+    margin-bottom: 800px;
+}
+
+hr {
+    background-color:#000;
+}
+.main-content .imagesa {
+    display: block;
+    width: 310px;
+    height: 225px;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: -220px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 3px #ffc400;
+}
+.main-content .imagesa:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #ff9100;
+}
+
+.visit-section .imagesb {
+    display: block;
+    width: 330px;
+    height: 215px;
+    margin-left: 950px;
+    margin-top: -160px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 1px #ff891abb;
+}
+
+.visit-section .imagesb:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 12px 2px #ff6600;
+}
+
+        /* Estilos para la sección "Por qué visitar" */
+.visit-section {
+    background-color: #ffd20991;
+ }
+ .natural .images {
+    width: 450px;
+    height: 275px;
+    margin-left: 800px;
+    margin-top: -280px;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 3px #ff9100;
+ }
+ .natural .images:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #ff6600;
+}
+ .natural {
+    background-color: #ffa6008a;
+ }
+
+.visit-section .natural h3 {
+     color: #000;
+ }
+
+.visit-section p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 900px;
+    text-align: justify;
+}
+.natural p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 750px;
+    text-align: justify;
+}
+
+
+
+
+/******************************************GASTRONOMÍA SECCIONES*************************************/
+.G {
+   background-color: #fcce00a6; 
+}
+.G .imagesa {
+    display: block;
+    width: 350px;
+    height: 275px;
+    position: absolute;
+    margin-left: 930px;
+    margin-top: -100px;
+    border-radius: 15px;
+    transition: transform 0.3s ease;  /* Transición suave al transformarse */
+}
+.G .imagesa:hover {
+    transform: scale(1.05);
+}
+.noperder {
+    background-color: #ff1e0049;
+ }
+ .noperder .images {
+   margin-left: 400px;
+   border-radius: 15px;
+   border: 8px double #f5f5f5;
+   box-shadow: 4px 4px 8px 1px #ff891abb;
+   transition: transform 0.3s ease;  /* Transición suave al transformarse */
+ }
+ .noperder .images:hover {
+   border-color:#333;
+   box-shadow: 4px 4px 16px 4px #ff6600;
+   transform: scale(1.05);
+}
+ .merca {
+    background-color: #ffa60054;
+ }
+ .merca img {
+    display: block;
+    width: 325px;
+    height: 175px;
+    margin-left: 925px;
+    margin-top: -175px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 1px #ff891abb;
+    transition: transform 0.3s ease;  
+ }
+ .merca img:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #ff6600;
+    transform: scale(1.05);
+ }
+ .cafe {
+    background-color: #8d400d65;
+ }
+ .cafe img {
+    display: block;
+    width: 225px;
+    height: 150px;
+    margin-left: 975px;
+    margin-top: -150px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 1px #ff891abb;
+    transition: transform 0.3s ease;  
+ }
+ .cafe img:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #aa4e18;
+    transform: scale(1.05);
+ }
+
+.noperder .merca .cafe h3 {
+     color: #000;
+ }
+
+.noperder p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 900px;
+    text-align: justify;
+}
+.natural p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 750px;
+    text-align: justify;
+}
+
+
+
+
+/******************************************TRADICIONES SECCIONES*******************************************************/
+
+
+.T {
+    background-color: #fcce00a6; 
+ }
+ .T .imagesa {
+     display: block;
+     width: 350px;
+     height: 275px;
+     position: absolute;
+     margin-left: 930px;
+     margin-top: -100px;
+     border-radius: 15px;
+     box-shadow: 4px 4px 16px 4px #ff00eac7;
+     transition: transform 0.3s ease;  /* Transición suave al transformarse */
+ }
+ .T .imagesa:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #fcce00fb; 
+    transform: scale(1.05);
+ }
+ .ssta {
+    background-color: #c300ff9c;
+  }
+  .ssta .imagesb {
+    margin-left: 350px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 14px 2px #ac10f5e5;
+    transition: transform 0.3s ease;  
+  }
+  .ssta .imagesb:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #fcce00a6;
+    transform: scale(1.05);  /* Agranda el div un 5% */
+ }
+  .pat {
+     background-color: #0004ff6e;
+  }
+  .pat img {
+     width: 330px;
+     height: 210px;
+     margin-left: 935px;
+     margin-top: -200px;
+     border-radius: 15px;
+     border: 8px double #f5f5f5;
+     box-shadow: 4px 4px 8px 1px #ff891abb;
+     transition: transform 0.3s ease;  
+  }
+  .pat img:hover {
+     border-color:#333;
+     box-shadow: 4px 4px 16px 4px #fcce00e1;
+     transform: scale(1.05);  /* Agranda el div un 5% */
+  }
+  .flores {
+     background-color: #09f0dd75;
+  }
+  .flores iframe {
+     width: 500px;
+     position:absolute;
+     height: 250px;
+     margin-left: 780px;
+     margin-top: -300px;
+     border-radius: 15px;
+     border: 8px double #f5f5f5;
+     box-shadow: 4px 4px 8px 1px #ff891abb;
+     transition: transform 0.3s ease;  /* Transición suave al transformarse */
+  }
+  .flores iframe:hover {
+     border-color:#333;
+     box-shadow: 4px 4px 16px 4px #aa4e18;
+     transform: scale(1.05);  /* Agranda el div un 5% */
+  }
+ 
+ .ssta .pat .flores h3 {
+      color: #000;
+  }
+ 
+.ssta p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 900px;
+    text-align: justify;
+}
+.pat p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 900px;
+    text-align: justify;
+}
+.flores p {
+   color: #333;
+   font-size: 16px;
+   line-height: 1.6;
+   width: 750px;
+   text-align: justify;
+}
+
+
+
+/*********************************************COSTUMBRES****************************************************************/
+
+
+.C {
+    padding: 20px;
+    background-color: #ffd00088;
+}
+
+.C h2 {
+    color: #000;
+    }
+
+.C p {
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 450px;
+    text-align: justify;
+}
+
+.C .imagesa {
+    display: block;
+    width: 385px;
+    height: 240px;
+    position: absolute;
+    margin-left: 475px;
+    margin-top: -230px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 3px #ffc400;
+}
+.C .imagesa:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #ff9100;
+}
+
+.C .imagesab {
+    display: block;
+    width: 385px;
+    height: 240px;
+    position: absolute;
+    margin-left: 900px;
+    margin-top: -230px;
+    border-radius: 15px;
+    border: 8px double #f5f5f5;
+    box-shadow: 4px 4px 8px 3px #ffc400;
+}
+.C .imagesab:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #ff9100;
+}
+
+
+.maiz {
+    background-image: url(https://dataexport.com.gt/wp-content/uploads/2023/01/importacion-de-maiz-amarillo-en-Guatemala-1000x600.jpg);
+    background-size: cover;        /* Que la imagen cubra todo el div */
+    position: relative;            
+    padding: 20px;                 
+    height: 180px;                 /* Altura para mostrar la imagen completa */
+    transition: transform 0.3s ease-in-out;  
+}
+
+.maiz::before { /*se utiliza para crear un elemento secundario que se coloca antes del elemento seleccionado*/
+    content: '';/*necesario para el before*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 174, 0, 0.5); /* Capa oscura transparente */
+    z-index: 1; /* Colocar debajo del texto */
+}
+.maiz:hover {
+    transform: scale(1.05);  /* Agranda el div un 5% */
+ }
+
+
+.maiz p  {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.maiz h3 {
+    color: #000000;
+    position: relative;
+    z-index: 2;
+}
+
+ .tipico {
+    background-image: url(https://media.istockphoto.com/id/477603387/es/foto/maya-ornament-en-una-manta-en-chichicastenango-mercado-guatemala.jpg?s=1024x1024&w=is&k=20&c=aUJJK29dZqkItQEXgPwRZ6Kw72sgq1Phgp1lbVKGIkE=);
+    background-size: cover;        /* Que la imagen cubra todo el div */
+    position: relative;            /* Para controlar los elementos hijos */
+    padding: 20px;                 /* Espacio interno */
+    height: 200px;                 /* Altura para mostrar la imagen completa */
+    transition: transform 0.3s ease-in-out;  /* Transición suave al transformarse */
+ }
+ .tipico:hover {
+    transform: scale(1.05);  /* Agranda el div un 5% */
+ }
+
+ .tipico::before { /*se utiliza para crear un elemento secundario que se coloca antes del elemento seleccionado*/
+    content: '';/*necesario para el before*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(185, 24, 158, 0.5); /* Capa oscura transparente */
+    z-index: 1; /* Colocar debajo del texto */
+}
+
+.tipico h3 {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+ }
+
+.tipico p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.txt {
+    background-image: url(https://lh6.googleusercontent.com/proxy/IBAxcYiXaTFSM9LTrh0vovTncie_myoNpzjgVqbWDbSQi7cqUGCx43XPOYxJIEasKUNzubwmwS79iVLsFlkymHs81CjcAOAHvdhwmiBecW-zUPudMMvp1zP9G5Jf8ArqD6NCxKp8gbwzwTlN8BCzIzLzJQDyDcJWjDZ0apdQSF0Q1XlWEah3wkfS_BbsAxSoTyE);
+    background-size: cover;        /* Que la imagen cubra todo el div */
+    position: relative;            /* Para controlar los elementos hijos */
+    padding: 20px;                 /* Espacio interno */
+    height: 225px;                 /* Altura para mostrar la imagen completa */
+    transition: transform 0.3s ease-in-out;  /* Transición suave al transformarse */
+}
+
+.txt::before { /*se utiliza para crear un elemento secundario que se coloca antes del elemento seleccionado*/
+    content: '';/*necesario para el before*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 115, 0, 0.5); /* Capa oscura transparente */
+    z-index: 1; /* Colocar debajo del texto */
+}
+.txt:hover {
+    transform: scale(1.05);  /* Agranda el div un 5% */
+ }
+
+
+.txt p  {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.txt h3 {
+    color: #000000;
+    position: relative;
+    z-index: 2;
+}
+
+
+
+/* *******************************************ATRACTIVOS TURÍSTICOS***************************************************** */
+.A {
+    background-color: #ffa600a9;
+}
+.atractivo {
+    background-image: url(https://agn.gt/wp-content/uploads/2021/04/ANTIGUA-GUATEMALA-arco-de-santa-catalina.png);
+    background-size: cover;        /* Que la imagen cubra todo el div */
+    position: relative;            /* Para controlar los elementos hijos */
+    background-position: center;
+    padding: 20px;                 /* Espacio interno */
+    height: 350px;                 /* Altura para mostrar la imagen completa */
+    transition: transform 0.3s ease-in-out;  /* Transición suave al transformarse */
+    transform: scale(1.05);
+ }
+ .atractivo:hover {
+    transform: scale(1.1);  /* Agranda el div un 5% */
+ }
+ .atractivo::before { /*se utiliza para crear un elemento secundario que se coloca antes del elemento seleccionado*/
+    content: '';/*necesario para el before*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 115, 0, 0.5); /* Capa oscura transparente */
+    z-index: 1; 
+}
+
+.atra h2 {
+    margin-left: 440px; 
+}
+.atra p {
+    color:#000;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.pacaya {
+    background-color: #34a308bd;
+    height: 200px;
+}
+.pacaya img {
+    display: block;
+    width: 285px;
+    height: 175px;
+    margin-left: 960px;
+    margin-top: -183px;
+    border-radius: 15px;
+    border: 8px double #333;
+    box-shadow: 4px 4px 8px 1px #fff;
+    transition: transform 0.3s ease;  
+ }
+ .pacaya img:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #0f5a01;
+    transform: scale(1.05);
+ }
+
+.cruz {
+    background-color: #a37a08d5;
+    height: 200px;
+}
+.cruz h3 {
+    text-align: right;
+}
+.cruz p {
+    text-align: justify; /* Justificado */
+    text-align-last: right; /* Alinea el último bloque de texto a la derecha */
+    margin-left: 400px;
+}
+.cruz img {
+    display: block;
+    width: 285px;
+    height: 175px;
+    margin-left: 40px; 
+    margin-top: -157px;
+    border-radius: 15px;
+    border: 8px double #333;
+    box-shadow: 4px 4px 8px 1px #fff;
+    transition: transform 0.3s ease;
+}
+
+.cruz img:hover {
+    border-color: #333;
+    box-shadow: 4px 4px 16px 4px #5a3b01;
+    transform: scale(1.05);
+}
+
+
+.hobbi {
+    background-color: #015a4ece;
+    height: 200px;
+}
+.hobbi img {
+    display: block;
+    width: 285px;
+    height: 175px;
+    margin-left: 960px;
+    margin-top: -157px;
+    border-radius: 15px;
+    border: 8px double #333;
+    box-shadow: 4px 4px 8px 1px #fff;
+    transition: transform 0.3s ease;  
+ }
+ .hobbi img:hover {
+    border-color:#333;
+    box-shadow: 4px 4px 16px 4px #0da38f;
+    transform: scale(1.05);
+ }
+
+
+.barri {
+    background-color: #57015a94;
+    height: 200px;
+}
+.barri h3 {
+    text-align: right;
+}
+.barri p {
+    text-align: justify; /* Justificado */
+    text-align-last: right; /* Alinea el último bloque de texto a la derecha */
+    margin-left: 400px;
+}
+.barri img {
+    display: block;
+    width: 285px;
+    height: 175px;
+    margin-left: 40px; 
+    margin-top: -183px;
+    border-radius: 15px;
+    border: 8px double #333;
+    box-shadow: 4px 4px 8px 1px #fff;
+    transition: transform 0.3s ease;
+}
+
+.barri img:hover {
+    border-color: #333;
+    box-shadow: 4px 4px 16px 4px #57015a;
+    transform: scale(1.05);
+}
+
+
+
+/* *******************************************INDEPENDENCIA 15 SEP***************************************************** */
+.nava :hover {
+    color: #1da4e2e3;
+}
+
+.indsep {
+    background-color: #1da4e2e3;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.indsep h1 {
+    font-size: 28px;
+    color: #000;
+    margin-left: 585px;
+    align-items: center;
+    text-align: center;
+}
+
+.indsep h1 img {
+    margin-left: -80px;
+    margin-top: -25px;
+    width: 75px;
+    height: 65px;
+    position: absolute;
+ }
+
+.I {
+    background-color: #008cff48;
+}
+.indep {
+    background-image: url(https://www.grupowebmarketing.com/wp-content/uploads/2018/09/El-escudo-de-armas-si%CC%81mbolo-patrio-de-Guatemala5.jpg);
+    background-size: cover;        /* Que la imagen cubra todo el div */
+    position: relative;            /* Para controlar los elementos hijos */
+    background-position: center;
+    padding: 20px;                 /* Espacio interno */
+    height: 350px;                 /* Altura para mostrar la imagen completa */
+    transition: transform 0.3s ease-in-out;  /* Transición suave al transformarse */
+    transform: scale(1.05);
+ }
+ .indep:hover {
+    transform: scale(1.1);  
+ }
+ .indep::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 153, 255, 0.322);
+    z-index: 1; 
+}
+
+.independencia h2 {
+    margin-left: 485px; 
+}
+.independencia p {
+    color:#000;
+    font-size: 18px;
+    text-align: center;
+    margin-left: 205px;
+}
+
+.antorcha {
+    background-image: url(https://lahora.gt/wp-content/uploads/sites/5/2023/09/Antorchas-3.jpeg);
+    background-size: cover;        
+    position: relative;            
+    padding: 20px;                 
+    height: 200px; 
+    background-position: center;                
+    transition: transform 0.3s ease-in-out;  
+ }
+ .antorcha:hover {
+    transform: scale(1.05);  
+ }
+ .antorcha::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(163, 214, 255, 0.5); 
+    z-index: 1; 
+}
+.antorcha h3 {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+ }
+
+.antorcha p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.celeb {
+    background-image: url(https://www.prensalibre.com/wp-content/uploads/2023/09/WhatsApp-Image-2023-09-15-at-9.25.08-AM.jpeg?quality=52&w=1200);
+    background-size: cover;        
+    position: relative;            
+    padding: 20px;                 
+    height: 200px; 
+    background-position: 0%;                
+    transition: transform 0.3s ease-in-out;  
+ }
+ .celeb:hover {
+    transform: scale(1.05);  
+ }
+ .celeb::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 150, 250, 0.5); 
+    z-index: 1; 
+}
+.celeb h3 {
+    text-align: right;
+    color: #000000;
+    position: relative;
+    z-index: 2;
+ }
+
+.celeb p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+    text-align-last: right; 
+    margin-left: 20px;
+}
+
+
+.patrios {
+    background-image: url(https://laantiguaguatemala.org/wp-content/uploads/2016/09/desfile-15-de-septiembre-antigua-guatemala.jpg?w=1200);
+    background-size: cover;        
+    position: relative;            
+    padding: 20px;                 
+    height: 200px; 
+    background-position: center;                
+    transition: transform 0.3s ease-in-out;  
+ }
+ .patrios:hover {
+    transform: scale(1.05);  
+ }
+ .patrios::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(163, 214, 255, 0.5); 
+    z-index: 1; 
+}
+.patrios h3 {
+    color: #fff;
+    position: relative;
+    z-index: 2;
+ }
+
+.patrios p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+}
+
+.populares {
+    background-image: url(https://www.prensalibre.com/wp-content/uploads/2022/09/Proceres-de-la-independencia-de-Guatemala.jpg?quality=52);
+    background-size: cover;        
+    position: relative;            
+    padding: 20px;                 
+    height: 200px; 
+    background-position: 0%;                
+    transition: transform 0.3s ease-in-out;  
+ }
+ .populares:hover {
+    transform: scale(1.05);  
+ }
+ .populares::before { 
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 150, 250, 0.5); 
+    z-index: 1; 
+}
+.populares h3 {
+    text-align: right;
+    color: #000000;
+    position: relative;
+    z-index: 2;
+ }
+
+.populares p {
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.6;
+    width: 1250px;
+    text-align: justify;
+    position: relative;
+    z-index: 2;
+    text-align-last: right; 
+    margin-left: 20px;
+}
+
+.findsep {
+    background-color: #1da4e2e3;
+}
+
+/*******************************************************FOOTER***********************************************************/
+
+
+
+footer {
+    background-color: #ffd900ec; /* Fondo amarillo */
+    padding: 20px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: space-around; /* Distribuye horizontalmente los bloques */
+    align-items: center;
+}
+
+footer section {
+    flex: 1;
+    text-align: center;
+}
+
+/* Iconos sociales */
+.social-icons a img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Información central */
+.footer-center .logo-footer {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.footer-center p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #000;
+}
+
+.footer-center a {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Enlaces adicionales */
+.footer-right a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 5px;
+    font-size: 14px;
+}
+
+.footer-right a img {
+    width: 30px;
+    margin-bottom: 10px;
+}
+
+.footer-right iframe {
+    padding-left: 20px;
+}
+
